@@ -1,3 +1,6 @@
 [submodule "Day_3/login_signup"]
 	path = Day_3/login_signup
 	url = https://github.com/Kavinthangavel/FrontEnd.git
+[submodule "Day_4/nav"]
+	path = Day_4/nav
+	url = https://github.com/Kavinthangavel/FrontEnd.git
