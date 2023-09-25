@@ -1,0 +1,106 @@
+
+.dashboard-container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+
+    border-radius: 30px;
+  }
+
+
+  .d1 {
+    
+    background-blend-mode: soft-light;
+    background-color: rgba(196, 168, 168, 0.553);
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    padding-top: 20px;
+    margin-right: 50px;
+    border-radius: 30px;
+  }
+
+  .d2 {
+    
+    background-blend-mode: soft-light;
+    background-size: contain;
+    background-color: rgba(196, 168, 168, 0.553);
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 30px;
+  }
+  .d3 {
+   
+    background-blend-mode: soft-light;
+    background-size: contain;
+    background-color: rgba(196, 168, 168, 0.553);
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 30px;
+  }
+  .d4 {
+   
+    background-size: contain;
+    background-color: rgba(196, 168, 168, 0.553);
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 30px;
+  }
+
+  .dashboard-container h1 {
+    font-size: 2.5rem;
+    color: black;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .d1 h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  .d2 h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  .d3 h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  .d4 h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .polls1 {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    display: flex;
+    padding: 0 30px;
+    justify-content: space-between;
+  }
+  .polls2 {
+    margin-bottom: 30px;
+    display: flex;
+    padding: 0 30px;
+    justify-content: space-between;
+}
+.animated {
+  opacity: 0;
+}
+
+/* Customize animation duration and timing function */
+.animate__fadeInUp {
+  animation-name: fadeInUp;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+}
