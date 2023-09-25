@@ -1,0 +1,25 @@
+
+  .about-container {
+    /* background-color: hsl(216, 25%, 95.1%); */
+    /* max-width: 900px;  */
+    margin: 30px;
+    border-radius: 30px;
+    animation: fadeInAnimation 1s ease-in-out;
+  }
+  /* AboutPage.css */
+
+.commitment-section {
+  padding: 40px;
+}
+
+.section-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.commitment-text {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.5;
+}
