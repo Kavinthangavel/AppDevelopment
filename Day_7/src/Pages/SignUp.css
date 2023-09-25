@@ -1,0 +1,102 @@
+.scontainer {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 15vh;
+    width: 80%;
+    max-width: 400px;
+    background: rgba(255, 255, 255, 0);
+    /* box-shadow: 0 0 50px rgba(0, 0, 0, 0.5); */
+    border-radius: 5px;
+    /* background-color: rgb(178, 173, 32) */
+}
+
+
+.sheader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.stext {
+    color: #3c009d;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.sunderline {
+    width: 60px;
+    height: 5px;
+    background: #3c009d;
+    border-radius: 10px;
+}
+
+.sinputs {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 10px;
+    gap: 20px;
+}
+
+.sinput {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    max-width: 300px;
+    height: 40px;
+    background: rgb(203, 203, 203);
+    /* background: white; */
+    border-radius: 18px;
+}
+
+.sinput img {
+    color: black;
+    transform: scale(0.5);
+}
+
+.sinput input {
+    /* height: 40px;
+    width: 500px; */
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 15px;
+}
+
+.ssubmit-container {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+    gap: 15px;
+    align-items: center;
+}
+
+.ssubmit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 300px;
+    height: 40px;
+    color: white;
+    /* background: rgb(42, 191, 191); */
+    /* background: #196CFF; */
+    background: #4c00b4;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    border: none;
+}
+
+.sgray {
+    width: 100%;
+    background: rgb(203, 203, 203);
+    color: black;
+    /* background: white; */
+}
