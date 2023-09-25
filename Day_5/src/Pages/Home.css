@@ -1,0 +1,39 @@
+body {
+    
+    background-color:rgba(255, 228, 196, 0.311);
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    /* margin-bottom: 300px; */
+}
+
+.title {
+   
+    padding: 20px;
+}
+.title img{
+   padding-top: 20px;
+    padding-bottom: 70px;
+}
+
+.name {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.summary  {
+    text-decoration: solid;
+}
+.new{
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(244, 138, 8, 0.539);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}

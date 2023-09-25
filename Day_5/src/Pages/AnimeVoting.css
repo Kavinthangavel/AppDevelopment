@@ -1,0 +1,115 @@
+/* AnimeVoting.css */
+
+.anime-voting {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(0, 0, 0); 
+}
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .create-poll-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .create-poll-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .anime-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .anime-item {
+    width: 200px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s, filter 0.3s;
+  }
+  
+  .anime-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
+    filter: brightness(1.2);
+  }
+  .anime-item img {
+    height: auto;
+    border-radius: 5px; /* Add a slight border radius to images */
+  }
+  
+  .anime-item p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .voted {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px rgba(0, 255, 0, 0.7);
+    transition: transform 0.3s, box-shadow 0.3s;
+    filter: none; /* Reset filter on voted item */
+  }
+  
+  .voted-message {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    color: green;
+    animation: fadeInUp 1s ease; /* Apply fadeInUp animation to the voted message */
+  }
+  
+  .vote-icon {
+    color: #007bff;
+    font-size: 1.2rem;
+    margin-top: 5px;
+    transition: color 0.3s;
+  }
+  
+  .vote-icon:hover {
+    color: #0056b3;
+  }
+  
+  /* Add an overlay for the modal */
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Define the fadeInUp animation */
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
